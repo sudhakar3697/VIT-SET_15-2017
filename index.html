@@ -1,10 +1,10 @@
-<!-- Last Updated: 30-08-2017 10.15 AM  -->
+<!-- Last Updated: 30-08-2017 1.30 PM  -->
 
 <!DOCTYPE HTML>
 <html>
 
 <head>
-    <link rel="icon" type="image/gif/png" href="media/vit_small_logo.png">
+    <link rel="icon" type="image/gif/png" href="media/vit1.jpg">
     <title>SET-2017 | VIT University</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.1/css/materialize.min.css" rel="stylesheet"/>
     <link href="css/style.css" rel="stylesheet"/>
@@ -18,6 +18,7 @@
 <script type="text/javascript">
     $(document).ready(function(){
         $('.slider').slider();
+		
     });
 </script>
 <script>
@@ -96,7 +97,7 @@
         document.getElementById("accommodation").style.display="none";
         document.getElementById("contactUs").style.display="block";
     }
-
+	
 </script>
 <script>
     $(document).ready(function(){
@@ -184,7 +185,7 @@
         <div class="announcements" id="announce">
             <lable>Announcements</lable>
             <ul>
-                <marquee direction="up" style="height:200px;" scrolldelay=180>
+                <marquee direction="up" style="height:200px;" scrolldelay=180  onmouseover="this.stop();" onmouseout="this.start()">
                     <li><a class="waves-effect waves-light btn modal-trigger" href="#modal1" target="_blank">Important Dates</a></li>
                     <li><a class="waves-effect waves-light btn modal-trigger" href="#modal3" target="_blank">Brochure</a></li>
                     <li><a class="waves-effect waves-light btn modal-trigger" href="#modal5" target="_blank">Schedule</a></li>
