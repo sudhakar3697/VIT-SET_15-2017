@@ -1,26 +1,13 @@
-/*Last Updated: 30-08-2017 10.15 AM */
-.content .about{
-	display: inline-block;
-	height: auto;
-	width: 790px;
-	margin: 25px 80px 0 115px;
-}
 
-.content .about h2{
-	font-family: Ovo;
-	color: #607D8B;
+ #mobile-demo{
+	background: rgba(255, 255, 255, 0.8);
 }
-
-.content .about p{
-	font-family: Ovo;
-	font-size: 18px;
-	text-align:justify;
+#setLogo{
+	margin-top: 5px;
 }
-.announcements {
-	display: inline-block;
-	margin: 0;
-	vertical-align: top;
-	margin-top: 210px;
+.collapsible-header{
+	background-color: #E8EAF6;
+	font-weight:bolder;
 }
 
 .announcements lable{
@@ -29,10 +16,8 @@
 	padding: 10px 0;
     width: 250px;
 	color: #FFFFFF;
+	font-size:20px;
     background-color: #607D8B;
-	font-family: Ovo;
-	font-weight: bold;
-	font-size: 18px;
 }
 
 .announcements ul {
@@ -48,7 +33,7 @@
     color: #000;
     padding: 8px 16px 8px 30px;
     text-decoration: none;
-	font-family: Ovo;
+	font-weight:bolder;
 	background: url("../media/right-arrow.png") 10px 10px;
 	background-repeat: no-repeat;
 }
@@ -56,25 +41,4 @@
 .announcements ul li a:hover {
     background-color: #C6C6C6;
     color: black;
-}
-
-.footer{
-	width:100%;
-	height: 20%;
-	background-color: #607D8B;
-	font-family: Ovo;
-	color: #FFFFFF;
-	text-align:center;
-
-}
-.footer p{
-	display: inline-block;
-	padding: 0;	
-}
-
-#setLogo{
-	margin-top: 5px;
-}
-.collapsible-header{
-	background-color: #E8EAF6;
 }
