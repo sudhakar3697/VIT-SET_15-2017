@@ -1,7 +1,6 @@
 $(document).ready(function(){
         $('.slider').slider();
 		$('.button-collapse').sideNav({
-      		edge: 'right',
       		closeOnClick: true,
       		draggable: true,
     		}
