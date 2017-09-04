@@ -1,2 +1,2 @@
 # VIT-SET_15-2017
-Informative Website for SET_Conference-15-SITE-VIT University-Vellore
+Informative Website for 15th SET Conference conducted by VIT University, Vellore. Organised by SITE.
