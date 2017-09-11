@@ -43,6 +43,7 @@ $(document).ready(function(){
         document.getElementById("contactUs").style.display="none";
 	document.getElementById("brochure").style.display="none";
 	document.getElementById("aboutsite").style.display="none";
+
     }
     function showRegistration(){
          
@@ -55,6 +56,7 @@ $(document).ready(function(){
         document.getElementById("contactUs").style.display="none";
 	document.getElementById("brochure").style.display="none";
 	document.getElementById("aboutsite").style.display="none";
+
     }
     function showCommittee(){  
         document.getElementById("home").style.display="none";
@@ -66,6 +68,7 @@ $(document).ready(function(){
         document.getElementById("contactUs").style.display="none";
 	document.getElementById("brochure").style.display="none";
 	document.getElementById("aboutsite").style.display="none";
+
     }
     function showAccommodation(){
         document.getElementById("home").style.display="none";
@@ -111,4 +114,5 @@ $(document).ready(function(){
 	document.getElementById("brochure").style.display="block";
         document.getElementById("contactUs").style.display="none";
 		document.getElementById("aboutsite").style.display="none";
+
 	}
